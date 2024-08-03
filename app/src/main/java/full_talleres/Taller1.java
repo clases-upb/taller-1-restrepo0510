@@ -18,6 +18,30 @@ package full_talleres;
 public class Taller1 {
     
     public static void main(String[] args) {
+try {
+            // 2 punto
+            System.out.println(Convertir_km_seg(56));
+            // 3 punto
+            System.out.println(Convertir_cm_lt(5));
+            // 4 punto
+            System.out.println(Convertir_us_cops(5));
+            // 5 punto
+            System.out.println(Convertir_cent_far(5));
+            // 6 punto
+            System.out.println(Calcular_segs((byte)1 , (byte)1 , (byte)1 , (byte)1 ));
+            // 7 punto
+            System.out.println(Calcular_peso_carga(50, 30));
+            // 8 punto
+            System.out.println(Calcular_horasxviaje("Colombia", (short) 45, (short) 8));
+            // 9 punto
+            System.out.println(Calcular_combustible(new int[] { 69 }));
+            // 10 punto
+            System.out.println(Calcular_peso_luna((byte) 80));
+
+        } catch (Exception e) {
+            return;
+
+        }
 
 
     }
